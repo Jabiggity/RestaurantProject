@@ -1,0 +1,93 @@
+*{
+    background-color: #202020;
+    margin: 0;
+    -ms-overflow-style: none;
+    width: 100%;
+    font-family: 'PT Serif', serif;
+    
+}
+header{
+    position: sticky;
+    z-index: 1;
+    
+}
+#navBar{
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #121212;
+    height: 6rem;
+    
+    
+}
+#navBar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    font-size: 2em;
+    position: relative;
+    top:1.6rem;
+    width: 25%;
+    right: -63%;
+    gap: 2rem;
+}
+a,li {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    display: flex;
+    height: fit-content;
+    transition: ease .3s;
+    
+    
+}
+a:hover{
+    text-decoration: none;
+    transition: ease .5s;
+    color: rgb(255, 0, 0);
+    background-color: transparent;
+    text-shadow: 0px 0px 50px rgba(255, 255, 255, 0.205);
+    
+    
+}
+.selected{
+    color: rgb(151, 0, 0);
+    border: .1px solid rgba(255, 255, 255, 0.651);
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-width: 2px;
+    padding: 1px;
+}
+#logo{
+    background-color: transparent;
+    display: flex;
+    position: relative;
+    left:2% ;
+    top:15%;
+    float: left;
+    width:150px;
+    height: 150px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 12px 10px rgba(0, 0, 0, 0.616);
+}
+h2{
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    left: 12%;
+    top: 30%;
+    cursor: pointer;
+    width: fit-content;
+}
+main{
+    margin: 0;
+}
+span{
+    color: rgb(138, 0, 0);
+    background-color: transparent;
+    text-shadow:0px 0px 6px black ;
+}
