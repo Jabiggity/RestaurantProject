@@ -22,32 +22,118 @@ video{
   
     
 }
-.titleText{
+.titleText h1{
     text-align: center;
-    color: rgba(231, 231, 231, 0.938);
+    color: rgba(231, 231, 231, 0.925);
     display: flex;
-    justify-content: center;
-    z-index: 1;
+    position: absolute;
+    top: 20vw;
+    left: 50%;
+    transform: translate(-50%,0);
     background-color: transparent;
-    font-size: 3rem;
-    text-shadow:2px 2px 5px  #000000;
- 
+    font-size: 6rem;
+    text-shadow:2px 0px 20px  #000000d7;
+    border-top: solid rgb(255, 255, 255) 1px;
+    border-width: 2px;
+    padding-top: 1.5rem;
+    width: fit-content;
+    word-spacing: .05em;
+    letter-spacing: .05em;
+    cursor: default;
+    font-family: 'Libre Baskerville', serif;
 }
-
-
-#hr1{
+.titleText h2{
+    text-align: center;
+    color: rgba(231, 231, 231, 0.925);
+    display: flex;
     position: absolute;
-    top: 30%;
-    width: 55%;
-    z-index: 1;
+    top: 35vw;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,0);
+    background-color: transparent;
+    font-size: 2.5rem;
+    text-shadow:2px 6px 15px  #000000;
+    border: solid rgb(255, 255, 255) 1px;
+    padding: 1vw;
+    border-width: 2px;
+    width: fit-content;
+    word-spacing: .15em;
+    letter-spacing: .1em;
+    cursor: default;
 }
-#hr2{
-    position: absolute;
-    top: 50%;
-    width: 25%;
-    z-index: 1;
+.arrow{
+    width: 3vw;
+    position:absolute;
+    background-color: transparent;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,0);
+    bottom: 6vw;
+    transition: ease-out .3s;
+}
+.arrow:hover{
+    width: 4vw;
+}
+.gridContain{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 2rem;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: rgba(255, 217, 0, 0.849);
+    text-shadow: 0px 0px 5px, rgba(255, 0, 0, 0.397) 0px 0px 9px   ;
+    
+}
+.gridContent{
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 9px;
+    margin: 0;
+    height: 85%;
+    color: white;
+    width: auto;
+    overflow: hidden;
+    
+}
+.gridContent > * {
+    background-color: transparent;
+    text-shadow: rgba(85, 85, 85, 0.664) 0px 0px 3px;
+    
+    
+}
+.gridContent > hr{
+    width: 50%;
+    margin:1vh;
+    background-color: transparent;
+    
+}
+h3{
+    font-size: large;
+}
+.gridContent ul {
+    list-style: none;
+    text-align: left;
+    width: fit-content;
+    font-size: small;
+    text-shadow: #121212 0px 0px 8px;
+    padding-left: 0;
+    
+
+}
+.gridContent > p{
+    text-shadow: none;
+    font-size: small;
+    color: rgb(255, 217, 0);
+    background-color: transparent;
+    
+}
+span{
+    color: green;
+    width: fit-content;
+    background-color: transparent;
 }
