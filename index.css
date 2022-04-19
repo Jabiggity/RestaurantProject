@@ -4,6 +4,7 @@
     -ms-overflow-style: none;
     width: 100%;
     font-family: 'PT Serif', serif;
+    scroll-behavior: smooth;
     
 }
 ::-webkit-scrollbar{
