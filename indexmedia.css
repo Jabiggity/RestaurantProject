@@ -1,0 +1,82 @@
+@media screen and (max-width:425px) {
+    .gridContain{
+        width: 90%;
+        flex-direction: column;
+        gap: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .gridContent{
+        height: 90%;
+        flex-direction: column;
+    }
+    footer{
+        bottom: 0;
+        width: 100%;
+    }
+    .titleText h1{
+        font-size: 7vw;
+        margin-top: 70px;
+        
+    }
+    .titleText h2{
+        font-size: 3vw;
+        margin-top: 100px;
+    }
+    video{
+        margin-top: 100px;
+    }
+    #navbar{
+        width: 100%;
+    }
+    #navbar ul{
+        display: none;
+    }
+    #navbar h2{
+        position: absolute;
+        left: 7rem;
+        top: 2vh;
+    }
+    #logo{
+        width: 120px;
+        height: 120px;
+    }
+    html{
+        height: 200vh;
+        width: 100%;
+    }
+    footer{
+        position: fixed;
+        bottom: 0;
+    }
+    .menuBtn, .menuBtn a{
+        display:flex;
+        margin-left: 21vw;
+        position: relative;
+        width: fit-content;
+      
+    
+        color: rgb(255, 255, 255);
+    }
+}
+@media screen and (max-width:1440px){
+    .gridContent{
+        max-height: fit-content;
+        min-height: 90%;
+        padding: 3px;
+    }
+    .gridContain{
+        height: fit-content
+    }
+    #navbar ul{
+        left:59%;
+        position: relative;
+    }
+    #navbar h2 {
+        left:200;
+        position: absolute;
+    }
+
+
+
+}
