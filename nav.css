@@ -85,6 +85,7 @@ h2{
     top: 33%;
     cursor: pointer;
     width: fit-content;
+    height: fit-content;
 }
 main{
     margin: 0;
