@@ -19,7 +19,7 @@ video{
     width: 100%;
     filter: blur(1px) brightness(30%);
     z-index: -1;
-  
+  pointer-events: none;
     
 }
 .titleText h1{
@@ -27,7 +27,7 @@ video{
     color: rgba(231, 231, 231, 0.925);
     display: flex;
     position: absolute;
-    top: 20vw;
+    top: 10vw;
     left: 50%;
     transform: translate(-50%,0);
     background-color: transparent;
